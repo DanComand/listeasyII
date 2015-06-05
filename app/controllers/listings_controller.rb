@@ -44,7 +44,7 @@ def index
 
   private
   def listing_params
-    params.require(:listing).permit(:address, :bedrooms, :bathrooms, :square_feet, :description)
+    params.require(:listing).permit(:address, :bedrooms, :bathrooms, :square_feet, :description, :image)
   end
 end
 
